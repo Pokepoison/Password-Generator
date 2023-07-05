@@ -11,6 +11,7 @@ function generatePassword() {
         alert("Please enter a number between 8 and 128.");
         return generatePassword();
     }
+   
     var passwordLowercase = confirm("Would you like to include lowercase letters?");
     var passwordUppercase = confirm("Would you like to include uppercase letters?");
     var passwordNumbers = confirm("Would you like to include numbers?");
@@ -44,6 +45,7 @@ function generatePassword() {
     return password;
 }
 
+//provided below by the University of California, Berkeley Coding Bootcamp 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
