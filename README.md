@@ -11,6 +11,7 @@ N/A
 ## Usage 
 
 To use this site, simply click on the "Generate Password" button and a series of prompts will ask questions about what you would like to have in your password. The password can include: numbers, symbols, uppercase, and lowercase letters. The password is between 8 and 128 characters. Copy and paste the generated password to your desired location.
+https://pokepoison.github.io/Password-Generator/
 
 ## Credits
 
