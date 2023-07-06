@@ -6,11 +6,13 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
     var passwordLength = prompt("How many characters would you like your password to be? (8-128)"); 
-    var passwordLength = parseInt(passwordLength);
-    if (passwordLength < 8 || passwordLength > 128) {
+     passwordLength = Number(passwordLength);
+    if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
         alert("Please enter a number between 8 and 128.");
         return generatePassword();
     }
+    
+    
    
     var passwordLowercase = confirm("Would you like to include lowercase letters?");
     var passwordUppercase = confirm("Would you like to include uppercase letters?");
